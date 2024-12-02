@@ -1,6 +1,6 @@
 import { HtmlHTMLAttributes } from "react";
 
-import Image from "next/image";
+import Image from "public/disc.png";
 
 interface IconProps extends HtmlHTMLAttributes<SVGElement> {
 style: any
