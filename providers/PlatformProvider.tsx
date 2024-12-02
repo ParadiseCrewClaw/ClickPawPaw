@@ -9,7 +9,6 @@ const PlatformProvider = () => {
 
 	useEffect(() => {
 		if (!isAndroid && !isIOS && pathname !== "/desktop") {
-			redirect("/desktop");
 		}
 	}, []);
 
