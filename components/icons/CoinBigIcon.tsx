@@ -9,7 +9,7 @@ style: any
 const CoinBigIcon: React.FC<IconProps> = ({style}) => {
  return (
   <Image
-   src="/disc.png"
+   src="/22.png"
    alt="alt"
    width={1000}
    height={1000}
